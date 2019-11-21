@@ -1,22 +1,33 @@
+body{
+	background-color:violet;
+	}
+button{
+	background-color:lightgrey;
+	}
+button:hover{background-color:orange;}
+
+button:focus{background-color:red;}
 div {
   float: left;
   margin-right: 2px;
   vertical-align: bottom;
+   /*padding: 10px;*/
+   border-color: solid green;
 }
-
+maindiv
+{
+	 padding: 100px;
+}
 input, label {
   display: block;
   height: 1.1em;
 }
-
 br {clear: both;}
-h1 {font-size: 18px;}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
-#buttonParent {
-  margin-top: 1.1em;
+p{
+color:stateblue;
 }
